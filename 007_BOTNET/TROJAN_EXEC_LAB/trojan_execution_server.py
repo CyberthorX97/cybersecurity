@@ -31,7 +31,7 @@ class BotRequestHandler(socketserver.BaseRequestHandler):
 
 
 def main():
-    HOST, PORT = "0.0.0.0", 8000
+    HOST, PORT = "0.0.0.0", 8080
     socketserver.ThreadingTCPServer.allow_reuse_address = True
 
     try:

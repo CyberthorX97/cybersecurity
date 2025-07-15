@@ -7,8 +7,7 @@
 # ============================================================================
 
 # Imposta l'URL del bersaglio: in questo caso, il server web di Metasploitable
-TARGET="http://192.168.176.133" #indirizzo da modificare con l'IP della nostra macchina virtuale
-
+TARGET="http://192.168.176.133/mutillidae/" #indirizzo da modificare con l'IP della macchina da attaccare
 # Legge da linea di comando il numero di richieste da inviare (default: 100)
 # Se non specificato, usa 100
 REQUESTS=${1:-100}
